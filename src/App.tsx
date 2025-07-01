@@ -1,5 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, Instagram, Facebook, Heart, Star, Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
+import heroImg from './images/hero.webp';
+import product1 from './images/product1.webp';
+import product2 from './images/product2.webp';
+import product3 from './images/product3.webp';
+import product4 from './images/product4.webp';
+import product5 from './images/product5.webp';
+import product6 from './images/product6.webp';
+import aboutImg from './images/aboutImg.webp';
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,37 +50,37 @@ function App() {
     {
       id: 1,
       name: "Elegant Pearl Collection",
-      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: product1,
       description: "Handcrafted pearl beads with gold accents"
     },
     {
       id: 2,
       name: "Bohemian Earth Tones",
-      image: "https://images.pexels.com/photos/1191536/pexels-photo-1191536.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: product2,
       description: "Natural stone beads in warm earth colors"
     },
     {
       id: 3,
       name: "Crystal Harmony Set",
-      image: "https://images.pexels.com/photos/1191537/pexels-photo-1191537.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: product3,
       description: "Sparkling crystal beads for special occasions"
     },
     {
       id: 4,
       name: "Vintage Charm Beads",
-      image: "https://images.pexels.com/photos/1191535/pexels-photo-1191535.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: product4,
       description: "Antique-inspired beads with timeless appeal"
     },
     {
       id: 5,
       name: "Ocean Breeze Collection",
-      image: "https://images.pexels.com/photos/1191538/pexels-photo-1191538.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: product5,
       description: "Blue and turquoise beads inspired by the sea"
     },
     {
       id: 6,
       name: "Garden Party Mix",
-      image: "https://images.pexels.com/photos/1191533/pexels-photo-1191533.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: product6,
       description: "Floral-inspired beads in soft pastels"
     }
   ];
@@ -199,7 +208,7 @@ function App() {
             <div className="relative">
               <div className="relative z-10">
                 <img
-                  src="https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src={heroImg}
                   alt="Beautiful handcrafted beads"
                   className="rounded-2xl shadow-2xl w-full h-96 object-cover"
                 />
@@ -308,7 +317,7 @@ function App() {
             
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/1232440/pexels-photo-1232440.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={aboutImg}
                 alt="Artisan crafting beads"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
