@@ -169,14 +169,14 @@ function App() {
                 </button>
                 <div className="flex items-center gap-4">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/sephaya_/"
                     className="bg-pink-600 text-white p-3 rounded-full hover:bg-pink-700 transition-all duration-300 transform hover:scale-110"
                     aria-label="Follow us on Instagram"
                   >
                     <Instagram size={20} />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/sephayablings"
                     className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-110"
                     aria-label="Follow us on Facebook"
                   >
@@ -187,7 +187,7 @@ function App() {
 
               <div className="flex items-center gap-8 pt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-amber-700">500+</div>
+                  <div className="text-3xl font-bold text-amber-700">100+</div>
                   <div className="text-sm text-gray-600">Happy Customers</div>
                 </div>
                 <div className="text-center">
@@ -264,13 +264,13 @@ function App() {
             </p>
             <div className="flex justify-center gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/sephaya_/"
                 className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:from-pink-600 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
               >
                 <Instagram size={20} /> Shop on Instagram
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/sephayablings"
                 className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
               >
                 <Facebook size={20} /> Shop on Facebook
@@ -347,21 +347,21 @@ function App() {
                     <Mail className="text-amber-700" size={24} />
                     <div>
                       <div className="font-semibold text-gray-900">Email</div>
-                      <div className="text-gray-600">hello@sephaya.com</div>
+                      <div className="text-gray-600">zephaya27@gmail.com</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
                     <Phone className="text-amber-700" size={24} />
                     <div>
                       <div className="font-semibold text-gray-900">Phone</div>
-                      <div className="text-gray-600">+1 (555) 123-4567</div>
+                      <div className="text-gray-600">(+63) 992 733 9768</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
                     <MapPin className="text-amber-700" size={24} />
                     <div>
                       <div className="font-semibold text-gray-900">Location</div>
-                      <div className="text-gray-600">Handcrafted with love, worldwide</div>
+                      <div className="text-gray-600">Cebu City, Philippines</div>
                     </div>
                   </div>
                 </div>
@@ -371,14 +371,14 @@ function App() {
                 <h3 className="text-2xl font-semibold text-gray-900 mb-6">Follow Our Journey</h3>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/sephaya_/"
                     className="bg-pink-600 text-white p-4 rounded-full hover:bg-pink-700 transition-all duration-300 transform hover:scale-110"
                     aria-label="Follow us on Instagram"
                   >
                     <Instagram size={24} />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/sephayablings"
                     className="bg-blue-600 text-white p-4 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-110"
                     aria-label="Follow us on Facebook"
                   >
@@ -386,7 +386,7 @@ function App() {
                   </a>
                 </div>
                 <p className="text-sm text-gray-600 mt-4">
-                  Follow us on social media to see our latest creations and place your orders directly through our posts!
+                  Follow us on social media to see our latest creations and place your orders via direct message!
                 </p>
               </div>
             </div>
@@ -470,14 +470,14 @@ function App() {
               <h4 className="text-lg font-semibold mb-4">Connect & Shop</h4>
               <div className="flex gap-4 mb-4">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/sephaya_/"
                   className="bg-pink-600 p-3 rounded-full hover:bg-pink-700 transition-colors duration-200"
                   aria-label="Follow us on Instagram"
                 >
                   <Instagram size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/sephayablings"
                   className="bg-blue-600 p-3 rounded-full hover:bg-blue-700 transition-colors duration-200"
                   aria-label="Follow us on Facebook"
                 >
@@ -492,7 +492,7 @@ function App() {
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2024 Sephaya. All rights reserved. Made with <Heart className="inline w-4 h-4 text-red-500" /> for bead lovers.
+              © 2025 Sephaya. All rights reserved. Made with <Heart className="inline w-4 h-4 text-red-500" /> for bead lovers.
             </p>
           </div>
         </div>
