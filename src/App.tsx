@@ -392,7 +392,7 @@ function App() {
             </div>
 
             <div className="bg-gradient-to-br from-amber-100 to-orange-100 p-8 rounded-2xl">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">Stay Updated</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-6">We love to hear from you</h3>
               <form className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
@@ -431,7 +431,7 @@ function App() {
                   type="submit"
                   className="w-full bg-amber-700 text-white py-3 rounded-xl font-semibold hover:bg-amber-800 transition-colors duration-200"
                 >
-                  Send Message
+                  Send My Message
                 </button>
               </form>
             </div>
