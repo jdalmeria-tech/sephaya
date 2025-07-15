@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/jdalmeria-tech/',
+  base: '/jdalmeria-tech/sephaya/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
